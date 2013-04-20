@@ -3,6 +3,9 @@
 	kickstart.js
 */
 
+// MGF
+define(['jquery'], function($) {
+
 jQuery(document).ready(function($){
 
 	/*---------------------------------
@@ -210,6 +213,9 @@ jQuery(document).ready(function($){
 	$('[class*="col_"]').addClass('column');
 	$('pre').addClass('prettyprint');prettyPrint();
 
+});
+
+// MGF
 });
 
 /*
